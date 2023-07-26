@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CHEAT SHEET</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        max-width: 1300px;
+        margin: 0 auto; 
+    }
+
+    .box {
+        padding: 20px;
+        border: 3px solid #fff;
+        flex: 1;
+        overflow: hidden; 
+    }
+
+    .one {
+        padding-right: 20px;
+        background-color: #403b3b;
+        color: #fff;
+        flex-basis: 30%;
+    }
+
+    .two {
+        background-color: #e4d9d9;
+        color: #000;
+        flex-basis: 70%;
+    }
+
+    .one img {
+        display: block;
+        margin: 0 auto;
+       
+    }
+
+    .one h2 {
+        padding-left: 75px;
+        padding-top:10px ;
+         font-size: 2em;
+        font-weight: 800;
+       
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .about {
+       
+        line-height:0.6;
+        font-size: 1em;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 75px;
+    }
+
+    .about h3 {
+
+         color: aliceblue;
+        font-size: 1.3em;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+    .about p{
+        color:#e4d9d9;
+    }
+    .expert, .ref {
+        margin-top: 50px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .expert h2, .ref h2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .expert ul {
+        line-height: 1.6;
+        padding-left: 85px;
+        color:#e4d9d9;
+        
+    }
+
+   
+    .ref h3
+    {
+        padding-left: 70px;
+        font-size: 0.9em;
+        text-transform: capitalize;
+        line-height: .5;
+        padding-bottom: 0;
+    }
+.ref h4
+{   
+    padding-left: 70px;
+    padding-bottom: 13px;
+        font-size: 0.9em;
+        text-transform: capitalize;
+        line-height: .3;
+       text-transform: capitalize;
+      color:#e4d9d9;
+}
+    .start {
+        padding-top: 70px;
+        padding-left: 10px;
+        color: #000;
+    }
+
+    .start h1 {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        line-height: .5;
+    }
+
+    .start h2 {
+        padding-left:15px;
+        font-weight: normal;
+        letter-spacing: 5px;
+        font-size: 40px;
+        text-transform: capitalize;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .myself h2{
+        font-family:700;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .myself {
+        padding-top: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+    
+   .exp h2
+   {
+    padding-top: 40px;
+    padding-bottom: 24px;
+       font-family:700;
+        font-weight: bold;
+        font-size: 30px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .exp h3
+   {
+   line-height: 0px;
+   }
+   .edu h2{
+    padding-top: 30px;
+ 
+    font-family:700;
+        font-weight: bold;
+        font-size: 30px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .edu
+   {
+    display:flex
+   }
+   .sub1
+   {
+   flex-basis: 30%;
+
+   }
+   .sub2
+   {
+   
+    flex-basis: 70%;
+   }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box one">
+            <img src="C:\Users\HP\Desktop\pic.jpg" width="290" height="290">
+            <h2>MY CONTACT</h2>
+            <div class="about">
+                <h3>Phone</h3>
+                <p>+092-17529-5585</p>
+                <h3>Email</h3>
+                <p>aaimlikabbasi@gmail.com</p>
+                <h3>Address</h3>
+                <p>123 new hemsertan</p>
+            </div>
+            <div class="expert">
+                <h2>EXPERTIES</h2>
+                <ul>
+                    <li>visual design</li>
+                    <li>illustration</li>
+                    <li>digital art</li>
+                    <li>web design</li>
+                    <li>coding</li>
+                </ul>
+            </div>
+            <div class="ref">
+                <h2>REFERENCE</h2>
+                <h3>OLIVIYA WILSON</h3>
+                <h4>creative director at barcela</h4>
+                <h3>PHONE</h3>
+                <h4>+092-17529-5585</h4>
+            </div>
+        </div>
+        <div class="box two">
+            <div class="start">
+                <h1>CHIAKI SATO</h1>
+                <h2>GRAPHIC DESIGNER</h2>
+            </div>
+            <div class="myself">
+                <h2>ABOUT MYSELF</h2>
+                <p>I am a person who is positive about every aspect of life. There are many things I like to do,
+                    to see, and to experience. I like to read, I like to write; I like to think, I like to 
+                    dream; I like to talk, I like to listen. I like to see the sunrise in the morning, 
+                    I like to see the moonlight at night; I like to feel the music flowing on my face,
+                    I like to smell the wind coming from the ocean. I like to look at the clouds in
+                    the sky with a blank mind;</p>
+            </div>
+            <div class="exp">
+                <h2>EXPERIENCE</h2>
+                <h3>barcella |2013 2014</h3>
+                <p>Graphic designer</p>
+                <p>Designed and developed up to 10 applications projects per year
+                    Designed project requirements .in cooperation with data analysis teams.
+                    It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers to miss.
+                    It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers to miss.
+                    </p>
+
+                    <h3  style="padding-top: 30px;">Ingoute company |2005 2011</h3>
+                <p>Digital Marketing Advertiser</p>
+                <p>Designed and developed up to 10 applications projects per year
+                    Designed project requirements .in cooperation with data analysis teams.
+                    It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers to miss.
+                    It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers to miss.
+                    </p>
+            </div>
+            <div class="edu">
+                <div class="sub1">
+                <h2>EDUCATION</h2>
+                <h3>2006</h3>
+                <p>barcella</p>
+            </div>
+                <div class="sub2"><p style="padding-top: 90px;">Designed and developed up to 10 applications projects per year
+                    Designed project requirements .in cooperation with data analysis teams.
+                    It will work  It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers 
+                    to miss.In it, mention something you cannot afford your prospective . </p></div>
+
+            </div>
+
+            <div class="edu">
+                <div class="sub1">
+                <!-- <h2>EDUCATION</h2> -->
+                <h3>2003</h3>
+                <p>barcella</p>
+            </div>
+                <div class="sub2"><p style="padding-top:.1;">Designed and developed up to 10 applications projects per year
+                    Designed project requirements .in cooperation with data analysis teams.
+                    It will work  It will work like a magnet for recruiters’ eyes.
+                    In it, mention something you cannot afford your prospective employers 
+                    to miss.In it, mention something you cannot afford your prospective . </p></div>
+
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>
